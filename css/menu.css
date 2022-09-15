@@ -1,0 +1,66 @@
+body{ 
+	background-color: black;
+}
+main {
+	width: 600px;
+	background-color: white;
+	margin-right: auto;
+	margin-left: auto;
+}
+ h1 {
+	font-family: 'pinyon script' , cursive;
+	background-color: red;
+	text-align: center;
+	margin: 0;
+	color: white;
+	padding: 20px;
+}
+
+.hot {
+	/*width: 600px;*/
+	/*padding: 40px;*/
+}
+.bug img {
+	width: 600px;
+	height: 400px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.bre {
+	background-color: white;
+	width: 600px;
+	text-align: center;
+}
+.bre h2 {
+	font-family: 'pinyon script' , cursive;
+	font-size: 40px; 
+	margin: auto;
+}
+table {
+	width: 600px;
+	padding: 40px;
+	border-collapse: collapse;
+}
+  .nth {
+	background-color: black;
+	color: white;
+}
+.box table th,
+.box table td {
+	border: 1px solid black;
+	text-align: center;
+}
+.box tr {
+	height: 40px;
+}
+.box {
+}
+.copy {
+	background-color: red;
+	width: 600px;
+	text-align: center;
+	margin: 0;
+}
+tr : last-child {
+	color: red;
+}
