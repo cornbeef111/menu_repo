@@ -4,8 +4,7 @@ body{
 main {
 	width: 600px;
 	background-color: white;
-	margin-right: auto;
-	margin-left: auto;
+	margin: auto;
 }
  h1 {
 	font-family: 'pinyon script' , cursive;
@@ -13,54 +12,79 @@ main {
 	text-align: center;
 	margin: 0;
 	color: white;
-	padding: 20px;
+	padding: 5px;
 }
-
-.hot {
-	/*width: 600px;*/
-	/*padding: 40px;*/
-}
-.bug img {
+.bug{
 	width: 600px;
-	height: 400px;
-	margin-right: auto;
-	margin-left: auto;
+	height: 300px;
+	border-bottom: 3px solid black;
+	background-image: url(../images/burger.jpg);
+	background-size: cover;
 }
+/*.bug img {
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	border-bottom: 3px solid black;
+}*/
 .bre {
 	background-color: white;
 	width: 600px;
-	text-align: center;
+	margin: auto;
 }
 .bre h2 {
 	font-family: 'pinyon script' , cursive;
-	font-size: 40px; 
-	margin: auto;
+	font-size: 30px; 
+	text-align: center;
 }
 table {
-	width: 600px;
-	padding: 40px;
+	width: 560px;
 	border-collapse: collapse;
 }
-  .nth {
-	background-color: black;
-	color: white;
+ 
+.box{
+margin-left: 20px;
 }
 .box table th,
 .box table td {
 	border: 1px solid black;
-	text-align: center;
 }
 .box tr {
-	height: 40px;
+	height: 35px;
 }
-.box {
-}
+
+
 .copy {
 	background-color: red;
+	color: white;
 	width: 600px;
 	text-align: center;
-	margin: 0;
 }
-tr : last-child {
+h4{
+	padding: 15px;
+}
+tr :last-child {
 	color: red;
+	text-align: center;
+	width: 110px;
+	font-weight: bold;
+}
+
+ .nth {
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+.nth td{
+	color: white;
+}
+tr :nth-child(2){
+	padding-left: 10px;
+	font-style: italic;
+	font-weight: bold;
+}
+tr :first-child{
+	width: 110px;
+	font-weight: lighter;
+	font-style: italic;
 }
